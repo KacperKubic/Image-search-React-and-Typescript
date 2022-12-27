@@ -1,0 +1,41 @@
+.app {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.imageSearch{
+  height: 10vh;
+  padding-top: 20px;
+}
+
+.imageSearch form{
+  display: flex;
+  flex-direction: column;
+  width: 200px;
+}
+
+.imageSearch form label{
+  font-size: 1.5rem;
+}
+
+.imageSearch form input{
+  padding: 10px;
+  border-radius: 5px;
+}
+
+
+.imageList{
+  width: 43%;
+  display: grid;
+  place-items: center;
+  grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+  grid-gap: 4 10px;
+  grid-auto-rows: 10px;
+}
+
+.imageList img{
+  width: 250px;
+}
